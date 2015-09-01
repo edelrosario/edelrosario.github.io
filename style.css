@@ -119,6 +119,7 @@ img {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
+  margin-top: 10px;
 }
 
 /* Helper to place a series of images in a row */
