@@ -1,0 +1,220 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* Edits the color of the links on the page */
+a,
+a:focus,
+a:hover {
+  color: #FFF;
+}
+
+body {
+  padding-bottom: 40px;
+  color: #F2F2F2;
+  text-shadow: 2px 2px 3px #191919;
+}
+
+/* Image from: ; */
+.about {
+  background: url(gba.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio {
+  background: url(pixel-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Image from: http://run4itmarty.kinja.com/final-ish-fantasy-vii-a-thought-experiment-1716404756 */
+.contact {
+  background: url(main-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Padding for main body text as to prevent it from getting to close to the sides */
+.main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  	font-family: "Abel", Ariel, sans-serif;
+}
+
+/* Helps prevent footer from getting to close to the sides of the window
+ * Primarily used for the contact page
+-------------------------------------------------- */
+
+/* Center align the text  */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-divider2 {
+  padding-top: 20px; /* Space out the Bootstrap <hr> less */
+  padding-bottom: 60px;
+}
+
+/* Images
+------------------------- */
+
+/* Spacing between the headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* Vertical oval shaped image */
+.featurette-img1 {
+  max-width: 250px;
+  max-height: 350px;
+  box-shadow: 2px 2px 4px #242424;
+}
+
+/* Horizontal oval shaped image */
+.featurette-img2 {
+  max-width: 350px;
+  max-height: 250px;
+  margin-top: 40px;
+  box-shadow: 2px 2px 4px #242424;
+}
+
+/* Small circle shaped image/logo */
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  box-shadow: 2px 2px 4px #242424;
+}
+
+/* Non-circle shaped image/logo */
+.logo2{
+  margin: 10px;
+  box-shadow: 2px 2px 4px #242424;
+}
+
+/* Dynamic Resize */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+/* Helper to place a series of images in a row */
+.category {
+position:relative;
+display: inline-block;
+padding:10px;
+}
+
+/* RESPONSIVE CSS - Featurettes
+-------------------------------------------------- */
+
+/* Featurette header font size */
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+/* Spacing between featurette-heading text and divider */
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+}
+
+/* Header
+-------------------------------------------------- */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Change alignment and font of the nav bar to match the cover page */
+.nav-font {
+  text-align: center;
+  font-family: "Open Sans", serif;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
